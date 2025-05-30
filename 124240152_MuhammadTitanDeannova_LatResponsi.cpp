@@ -122,7 +122,7 @@ int main(){
 
         } else if (pilihan == 3){
             string judul;
-            cout << "Masukkna judul buku yang ingin dihapus: ";
+            cout << "Masukkan judul buku yang ingin dihapus: ";
             getline(cin, judul);
             bool found = false;
             root = remove(root, judul, found);
